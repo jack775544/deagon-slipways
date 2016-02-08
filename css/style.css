@@ -161,7 +161,13 @@ iframe{
 }
 
 #dinghyimg {
-    width: 500px;
+    /*width: 500px;
+    height: 281px;*/
+    width: 711px;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 #craneimg {
