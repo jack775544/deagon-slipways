@@ -1,0 +1,3 @@
+<IfModule mod_fcgid.c>
+Action php-fcgi /fcgi-bin/phpcgi-starter-5.3
+</IfModule>

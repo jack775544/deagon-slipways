@@ -1,0 +1,220 @@
+html{
+    font-family: 'Droid Serif', serif;
+    background-color: rgba(132,160,181,1);
+    font-size: 16px;
+    min-width: 780px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+#titleimg{
+    margin: 0px;
+    width: 100%;
+    height: 400px;
+    /*background-image: url("../pictures/backshed.jpg");
+    background-size: 100%;*/
+    position: relative;
+    text-align: center;
+}
+
+#titleimg img{
+    width: 100%;
+    height: 400px;
+}
+
+h1{
+    color: rgba(0,0,50,1);
+    letter-spacing: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(30,50,150,1);
+    margin: 0px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    padding: 0px 15px;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+}
+
+nav ul li a:hover{
+    background-color: rgba(30,50,255,1);
+}
+    
+.back{
+    background-color: rgba(132,160,181,1);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.text{
+    /*margin-bottom: 50px;*/
+    padding: 10px;
+}
+
+.writing img{
+    height: 400px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.content{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    margin: 10px;
+}
+
+footer{
+    font-size: 0.8em;
+}
+
+#finalnote{
+    font-size: 0.7em;
+}
+
+#clear{
+    clear: both;
+}
+
+.writing ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.writing ul li span{
+    padding-left: 16px;
+}
+
+td{
+    width: 200px;
+}
+
+.project{
+    float:left;
+    clear:both;
+    width: 100%;
+}
+
+.projectbody{
+    padding-left: 16px;
+}
+
+.project img{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+#mapbox{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+    border:0
+}
+
+#opening{
+    padding-left: 16px;
+}
+
+#homeimg{
+    width: 300px;
+}
+#yardimg {
+    width: 450px;
+}
+
+#historyimg {
+    width: 430px;
+}
+
+#dinghyimg {
+    width: 500px;
+}
+
+#craneimg {
+    width: 400px;
+}
+
+#vanityimg {
+    height: 350px
+}
+
+.gallery {
+/*    width: 640px;
+    height: 480px;*/
+    max-width: 700px;
+    width: 100%;
+    display: none;
+}
+
+.gallery:first-of-type{
+    display: block;
+}
+
+.slider div{
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 100px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.sliderbutton:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.sliderbutton {
+    cursor: pointer;
+    width: 10%;
+}
+
+.slider {
+    margin: auto;
+    width: 80%;
+    max-width: 840px;
+}
+
+.imgslider{
+    width: 80%;
+}
+
+#movie{
+    width: 560px;
+    height: 315px;
+    margin: auto;
+    display: block;
+}
