@@ -1,157 +1,174 @@
-html{
+html {
     font-family: 'Droid Serif', serif;
-    background-color: rgba(132,160,181,1);
+    background-color: rgba(132, 160, 181, 1);
     font-size: 16px;
-    min-width: 780px;
+    min-width: 725px;
 }
 
-html, body{
+html,
+body {
     height: 100%;
 }
 
-body{
+body {
     margin: 0px;
 }
 
-#titleimg{
+#titleimg {
     margin: 0px;
     width: 100%;
     height: 400px;
-    /*background-image: url("../pictures/backshed.jpg");
-    background-size: 100%;*/
     position: relative;
     text-align: center;
 }
 
-#titleimg img{
+#titleimg #back {
     width: 100%;
     height: 400px;
+    background-image: url(../pictures/backshed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1{
-    color: rgba(0,0,50,1);
+h1 {
+    color: rgba(0, 0, 50, 1);
     letter-spacing: 20px;
     position: absolute;
     bottom: 0px;
     width: 100%;
 }
 
-nav ul{
-    list-style-type: none;
-    text-align: center;
-    background-color: rgba(30,50,150,1);
-    margin: 0px;
+nav {
+    background-color: rgba(0, 0, 50, 1);
+    height: 20px;
 }
 
-nav ul li{
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    height: 20px;
+    padding: 0px;
+}
+
+nav ul li {
     display: inline;
 }
 
-nav ul li a{
+nav ul li a {
     padding: 0px 15px;
     text-decoration: none;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
 }
 
-nav ul li a:hover{
-    background-color: rgba(30,50,255,1);
+nav ul li:hover {
+    background-color: rgba(30, 50, 255, 1);
 }
-    
-.back{
-    background-color: rgba(132,160,181,1);
+
+#pull {
+    display: none;
+}
+
+.back {
+    background-color: rgba(132, 160, 181, 1);
     background-size: cover;
     width: 100%;
-
 }
 
-.text{
-    /*margin-bottom: 50px;*/
+.text {
     padding: 10px;
 }
 
-.writing img{
+.writing img {
     height: 400px;
     width: 200px;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.content{
+
+.content {
     margin: auto;
     width: 80%;
     height: 100%;
     background-color: white;
 }
 
-footer{
+footer {
     width: 100%;
     text-align: center;
 }
 
-footer p{
+footer p {
     margin: 10px;
 }
 
-footer{
+footer {
     font-size: 0.8em;
 }
 
-#finalnote{
+#finalnote {
     font-size: 0.7em;
 }
 
-#clear{
+#clear {
     clear: both;
 }
 
-.writing ul{
+.writing ul {
     padding-left: 0px;
     list-style-type: none;
 }
 
-.writing ul li span{
+.writing ul li span {
     padding-left: 16px;
 }
 
-td{
+td {
     width: 200px;
 }
 
-.project{
-    float:left;
-    clear:both;
+.project {
+    float: left;
+    clear: both;
     width: 100%;
 }
 
-.projectbody{
+.projectbody {
     padding-left: 16px;
 }
 
-.project img{
-    width: 300px;
-    height: 200px;
-    float: left;
+.project img {
+    width: 600px;
+    height: auto;
+    float: none;
+    display: inline;
 }
 
-#mapbox{
+#mapbox {
     width: 80%;
     height: 600px;
     margin: auto;
 }
 
-iframe{
+iframe {
     height: 100%;
     width: 100%;
-    border:0
+    border: 0;
 }
 
-#opening{
+#vidbox{
+    text-align: center;
+}
+
+#opening {
     padding-left: 16px;
 }
 
-#homeimg{
+#homeimg {
     width: 300px;
 }
+
 #yardimg {
     width: 450px;
 }
@@ -161,46 +178,41 @@ iframe{
 }
 
 #dinghyimg {
-    /*width: 500px;
-    height: 281px;*/
-    width: 711px;
-    height: 400px;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 740px;
+    height: 370px;
+    display: inline;
 }
 
 #craneimg {
     width: 400px;
 }
 
-#vanityimg {
-    height: 350px
+.prjimg{
+    width: 100%;
+    text-align: center;
 }
 
 .gallery {
-/*    width: 640px;
-    height: 480px;*/
     max-width: 700px;
     width: 100%;
     display: none;
 }
 
-.gallery:first-of-type{
+.gallery:first-of-type {
     display: block;
 }
 
-.slider div{
+.slider div {
     display: table-cell;
     vertical-align: middle;
     min-width: 100px;
     text-align: center;
     font-size: 50px;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .sliderbutton:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .sliderbutton {
@@ -214,13 +226,147 @@ iframe{
     max-width: 840px;
 }
 
-.imgslider{
+.imgslider {
     width: 80%;
 }
 
-#movie{
+#movie {
     width: 560px;
     height: 315px;
     margin: auto;
     display: block;
+}
+@media screen and (max-width: 1359px) {
+    #titleimg #back {
+        height: 217px;
+    }
+    #titleimg {
+        height: 217px;
+        background-position: bottom;
+    }
+}
+@media screen and (max-width: 1024px) {
+    html {
+        min-width: 0px;
+    }
+    #pull {
+        display: none;
+        text-decoration: none;
+    }
+    nav {
+        height: 203px;
+    }
+    nav ul {
+        display: block;
+        width: 100%;
+    }
+    nav ul li {
+        width: 100%;
+        background-color: rgba(0, 0, 50, 1);
+        display: block;
+    }
+    nav ul li:hover {
+        background-color: inherit;
+    }
+    nav ul li:nth-child(even) {
+        background-color: rgba(30, 50, 150, 1);
+    }
+    nav ul li a {
+        padding: 5px 0px 5px 0px;
+        display: block;
+        text-align: center;
+    }
+    #dinghyimg {
+        width: 520px;
+        height: 260px;
+    }
+    .project img {
+        width: 400px;
+    }
+    .slider div {
+        min-width: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .writing {
+        text-align: center;
+    }
+    #craneimg {
+        width: 200px;
+        height: auto;
+    }
+    #dinghyimg {
+        width: 360px;
+        height: 180px;
+    }
+    #yardimg {
+        float: none;
+        display: inline;
+    }
+    #historyimg {
+        float: none;
+        display: inline;
+    }
+}
+@media screen and (max-width: 600px) {
+    #homeimg {
+        width: 200px;
+        height: auto;
+        display: inline;
+        float: none;
+    }
+    #craneimg{
+        display: inline;
+        float: none;
+    }
+    #mapbox {
+        width: 80%;
+        height: 300px;
+        margin: auto;
+    }
+    iframe {
+        height: 100%;
+        width: 100%;
+        border: 0
+    }
+    #dinghyimg {
+        width: 200px;
+        height: 100px;
+    }
+    #opening {
+        padding-left: 16px;
+    }
+    #homeimg {
+        width: 300px;
+    }
+    #yardimg {
+        width: 200px;
+        height: auto;
+    }
+    #historyimg {
+        width:200px;
+        height: auto;
+    }
+    #vanityimg {
+        height: 350px
+    }
+    .project img {
+        width: 200px;
+    }
+    #titleimg #back {
+        height: 100px;
+    }
+    #titleimg {
+        height: 100px;
+        background-position: bottom;
+    }
+}
+@media screen and (max-width: 500px) {
+    #homeimg {
+        width: 200px;
+    }
+    .slider div {
+        min-width: 25px;
+        font-size: 30px;
+    }
 }
