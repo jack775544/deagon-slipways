@@ -17,3 +17,6 @@ address: "30 Hickson Road, Deagon, QLD, 4017"
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
